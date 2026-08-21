@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-08-21T11:09:03+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger)",
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 1300,
+  "followed_through": 548,
+  "hit_rate": 0.422,
+  "pending": 658,
+  "live_calls_logged": 5063,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-08-06",
+      "symbol": "3MINDIA",
+      "price": 36000.0,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "AEGISLOG",
+      "price": 1400.0,
+      "score": "high",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "AFFLE",
+      "price": 1688.7,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "AIIL",
+      "price": 596.2,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "APLLTD",
+      "price": 834.45,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "APOLLOHOSP",
+      "price": 8974.5,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "ARMANFIN",
+      "price": 2031.5,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "ASHOKLEY",
+      "price": 177.5,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "ASKAUTOLTD",
+      "price": 678.8,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "BIOCON",
+      "price": 436.6,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "BORANA",
+      "price": 344.6,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "CHALET",
+      "price": 863.1,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "DDEVPLSTIK",
+      "price": 310.6,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "DYNAMATECH",
+      "price": 11403.0,
+      "score": "high",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "EMIL",
+      "price": 149.78,
+      "score": "high",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "FIEMIND",
+      "price": 2479.5,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "FOSECOIND",
+      "price": 5409.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "GANDHITUBE",
+      "price": 893.15,
+      "score": "high",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "GARFIBRES",
+      "price": 838.85,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-06",
+      "symbol": "GRASIM",
+      "price": 3220.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    }
+  ]
+}

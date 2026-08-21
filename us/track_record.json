@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-08-21T22:26:56+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 13026,
+  "followed_through": 5265,
+  "hit_rate": 0.404,
+  "pending": 2583,
+  "live_calls_logged": 21116,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-08-07",
+      "symbol": "ABNB",
+      "price": 178.07,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "ADPT",
+      "price": 24.93,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AFRI",
+      "price": 11.18,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AII",
+      "price": 21.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AMN",
+      "price": 36.0,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "ANIK",
+      "price": 21.42,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "APA",
+      "price": 37.63,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "APPN",
+      "price": 34.64,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "ARTNA",
+      "price": 34.66,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AS",
+      "price": 36.84,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "ASGI",
+      "price": 24.21,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "ASH",
+      "price": 76.45,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AWF",
+      "price": 10.11,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AXGN",
+      "price": 46.43,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "AZTA",
+      "price": 32.04,
+      "score": "high",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "BA",
+      "price": 234.42,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "BAM",
+      "price": 52.49,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "BCC",
+      "price": 86.6,
+      "score": "medium",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "BKH",
+      "price": 74.65,
+      "score": "high",
+      "source": "live",
+      "worked": false
+    },
+    {
+      "date": "2026-08-07",
+      "symbol": "BRK-A",
+      "price": 780086.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true
+    }
+  ]
+}
