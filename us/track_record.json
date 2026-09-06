@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-09-06T19:50:30+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "dc5a486b8",
+  "graded_under": {
+    "unstamped": 14721
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 14721,
+  "followed_through": 5688,
+  "hit_rate": 0.386,
+  "pending": 2246,
+  "live_calls_logged": 26697,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-08-21",
+      "symbol": "AAMI",
+      "price": 92.3,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ACNB",
+      "price": 64.45,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ACRE",
+      "price": 4.77,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AEM",
+      "price": 216.06,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AJG",
+      "price": 263.81,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ALSN",
+      "price": 133.23,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AMBP",
+      "price": 5.36,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AMPL",
+      "price": 13.29,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ARTNA",
+      "price": 35.52,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ARX",
+      "price": 19.59,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AVK",
+      "price": 12.67,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AXGN",
+      "price": 50.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BBN",
+      "price": 15.79,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BCAL",
+      "price": 21.36,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BCH",
+      "price": 42.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BDSX",
+      "price": 26.63,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BEKE",
+      "price": 17.75,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BHB",
+      "price": 39.65,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BIIB",
+      "price": 216.78,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BKT",
+      "price": 10.44,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-09-06T19:28:54+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "dc5a486b8",
+  "graded_under": {
+    "unstamped": 1878
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 1878,
+  "followed_through": 823,
+  "hit_rate": 0.438,
+  "pending": 719,
+  "live_calls_logged": 6840,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-08-21",
+      "symbol": "AARTIIND",
+      "price": 527.2,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AEGISLOG",
+      "price": 1417.9,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "AGI",
+      "price": 753.6,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ALKYLAMINE",
+      "price": 2052.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ARCHIDPLY",
+      "price": 97.98,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "ARIES",
+      "price": 452.7,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "BLUSPRING",
+      "price": 128.98,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "CARTRADE",
+      "price": 3072.9,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "DATAPATTNS",
+      "price": 4829.9,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "DCBBANK",
+      "price": 203.59,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "DICIND",
+      "price": 593.9,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "DOLPHIN",
+      "price": 645.1,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "DPABHUSHAN",
+      "price": 1482.4,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "FCL",
+      "price": 47.43,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "FEDERALBNK",
+      "price": 361.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "GRAVITA",
+      "price": 1821.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "GUFICBIO",
+      "price": 431.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "HAL",
+      "price": 5000.0,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "HINDZINC",
+      "price": 594.9,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-21",
+      "symbol": "IDFCFIRSTB",
+      "price": 86.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    }
+  ]
+}
