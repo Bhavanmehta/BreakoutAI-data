@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-09-11T14:46:54+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "7bbeed534",
+  "graded_under": {
+    "unstamped": 2104
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 2104,
+  "followed_through": 868,
+  "hit_rate": 0.413,
+  "pending": 826,
+  "live_calls_logged": 7705,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-08-28",
+      "symbol": "AEROENTER",
+      "price": 146.29,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "ARIS",
+      "price": 151.31,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "ATHERENERG",
+      "price": 1616.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "BEML",
+      "price": 1984.9,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "BLSE",
+      "price": 326.25,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "CGCL",
+      "price": 257.98,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "FCL",
+      "price": 50.03,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "FMGOETZE",
+      "price": 602.05,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "GENUSPOWER",
+      "price": 349.7,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "HAPPYFORGE",
+      "price": 2307.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "HINDZINC",
+      "price": 622.0,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "IFCI",
+      "price": 89.96,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "INGERRAND",
+      "price": 4860.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "JGCHEM",
+      "price": 651.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "MUFIN",
+      "price": 138.27,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "NAUKRI",
+      "price": 1354.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "NITINSPIN",
+      "price": 626.4,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "NMDC",
+      "price": 86.76,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "OIL",
+      "price": 482.85,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-28",
+      "symbol": "QUESS",
+      "price": 372.25,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    }
+  ]
+}

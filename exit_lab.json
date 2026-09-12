@@ -1,0 +1,46 @@
+{
+ "generated_at": "2026-09-11T14:47:00+00:00",
+ "market": "IN",
+ "as_of_date": "2026-09-11",
+ "episodes_published": 2112,
+ "episodes_graded": 1965,
+ "episodes_skipped": 147,
+ "note": "Parallel regrade of the SAME published calls under alternative exit rules. Matched samples: each comparison row uses only episodes resolved under BOTH rules, so columns are apples-to-apples. Diagnostic only -- the official ledger and win rate are unchanged.",
+ "caveat": "Young-ledger bias: until enough calls are >=30 bars old, the h30 matched sample over-represents stopped trades (a stop is the only way to resolve early), which understates the no-target variants. Read edges only once matched_n is well past ~100.",
+ "variants": {
+  "no_target_h10": {
+   "horizon_bars": 10,
+   "matched_n": 1675,
+   "production": {
+    "n": 1675,
+    "win_rate_pct": 45.6,
+    "mean_r": -0.056,
+    "sum_r": -93.8
+   },
+   "alternative": {
+    "n": 1675,
+    "win_rate_pct": 36.5,
+    "mean_r": 0.032,
+    "sum_r": 53.7
+   },
+   "mean_r_edge": 0.088
+  },
+  "no_target_h30": {
+   "horizon_bars": 30,
+   "matched_n": 1252,
+   "production": {
+    "n": 1252,
+    "win_rate_pct": 35.3,
+    "mean_r": -0.263,
+    "sum_r": -329.5
+   },
+   "alternative": {
+    "n": 1252,
+    "win_rate_pct": 17.4,
+    "mean_r": -0.247,
+    "sum_r": -309.4
+   },
+   "mean_r_edge": 0.016
+  }
+ }
+}
