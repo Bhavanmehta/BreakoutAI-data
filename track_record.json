@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-09-16T17:53:35+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "6496db809",
+  "graded_under": {
+    "unstamped": 2240
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 2240,
+  "followed_through": 920,
+  "hit_rate": 0.411,
+  "pending": 754,
+  "live_calls_logged": 7837,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-09-02",
+      "symbol": "ANTELOPUS",
+      "price": 951.15,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "BLUSPRING",
+      "price": 132.44,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "DIVISLAB",
+      "price": 9220.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "DIXON",
+      "price": 14590.0,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "GUJALKALI",
+      "price": 714.8,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "IFCI",
+      "price": 98.32,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "JTLIND",
+      "price": 92.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "KIRIINDUS",
+      "price": 523.65,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "MOREPENLAB",
+      "price": 111.97,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "NIACL",
+      "price": 199.11,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "PNB",
+      "price": 117.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "PRABHA",
+      "price": 216.27,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "REDINGTON",
+      "price": 363.2,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "SAIL",
+      "price": 196.5,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "SHILPAMED",
+      "price": 928.55,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "SHREEPUSHK",
+      "price": 468.05,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "SOLARINDS",
+      "price": 20600.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-02",
+      "symbol": "UNIONBANK",
+      "price": 186.86,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "AEROFLEX",
+      "price": 552.05,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-09-01",
+      "symbol": "ANTHEM",
+      "price": 924.5,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    }
+  ]
+}

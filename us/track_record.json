@@ -1,0 +1,207 @@
+{
+  "generated_at": "2026-09-12T00:08:12+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "7bbeed534",
+  "graded_under": {
+    "unstamped": 15275
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 15275,
+  "followed_through": 5751,
+  "hit_rate": 0.376,
+  "pending": 2140,
+  "live_calls_logged": 28329,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-08-27",
+      "symbol": "A",
+      "price": 157.69,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ACP",
+      "price": 5.05,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ADX",
+      "price": 26.04,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "AG",
+      "price": 21.74,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "AMPL",
+      "price": 14.28,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "APPN",
+      "price": 41.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ARIS",
+      "price": 21.26,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ASAN",
+      "price": 10.17,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ASM",
+      "price": 7.73,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ATLO",
+      "price": 31.43,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "ATRC",
+      "price": 49.27,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "AVPT",
+      "price": 14.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "AYA",
+      "price": 29.29,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "BLKB",
+      "price": 48.57,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "BRZE",
+      "price": 34.09,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "BSTZ",
+      "price": 31.12,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "BTE",
+      "price": 4.82,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "BULL",
+      "price": 9.57,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "CARL",
+      "price": 16.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    },
+    {
+      "date": "2026-08-27",
+      "symbol": "CCC",
+      "price": 7.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "unstamped"
+    }
+  ]
+}
