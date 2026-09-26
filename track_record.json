@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-09-25T14:43:53+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "5c5604287",
+  "graded_under": {
+    "unstamped": 2352,
+    "104892c8": 345
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 2697,
+  "followed_through": 1045,
+  "hit_rate": 0.387,
+  "pending": 418,
+  "live_calls_logged": 7973,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-09-11",
+      "symbol": "63MOONS",
+      "price": 908.9,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "ADROITINFO",
+      "price": 11.02,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "AETHER",
+      "price": 1674.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "AKUMS",
+      "price": 776.35,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "APARINDS",
+      "price": 17500.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "AZAD",
+      "price": 2849.1,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BLACKBUCK",
+      "price": 628.15,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BLUESTONE",
+      "price": 890.35,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CASTROLIND",
+      "price": 188.03,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CONFIPET",
+      "price": 89.22,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "DYNAMATECH",
+      "price": 12097.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "EXICOM",
+      "price": 182.28,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "EXPLEOSOL",
+      "price": 889.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "FILATEX",
+      "price": 87.41,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "FIVESTAR",
+      "price": 551.05,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "GLOBAL",
+      "price": 126.91,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "GOCLCORP",
+      "price": 441.55,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "GODREJAGRO",
+      "price": 675.85,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "INDORAMA",
+      "price": 86.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "KOTAKBANK",
+      "price": 419.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}

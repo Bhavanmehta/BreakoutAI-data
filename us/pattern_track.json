@@ -1,0 +1,1651 @@
+{
+ "generated_at": "2026-09-25",
+ "market": "US",
+ "note": "Forward-only pattern ledger. Nulls are 3 random same-day symbols recorded at log time; timeouts count in the denominator; grid pre-declared (no search on this data). Grading is always on daily bars; 'stop' wins same-bar ties.",
+ "configs": {
+  "w10_fix6": {
+   "window": 10,
+   "band": "fix",
+   "param": 0.06
+  },
+  "w30_fix6": {
+   "window": 30,
+   "band": "fix",
+   "param": 0.06
+  },
+  "w60_fix6": {
+   "window": 60,
+   "band": "fix",
+   "param": 0.06
+  },
+  "w10_atr2": {
+   "window": 10,
+   "band": "atr",
+   "param": 2.0
+  },
+  "w30_atr2": {
+   "window": 30,
+   "band": "atr",
+   "param": 2.0
+  },
+  "w60_atr2": {
+   "window": 60,
+   "band": "atr",
+   "param": 2.0
+  }
+ },
+ "cells": [
+  {
+   "pattern": "Double Top",
+   "timeframe": "daily",
+   "events": 1917,
+   "pending": 1475,
+   "configs": {
+    "w10_fix6": {
+     "n": 1546,
+     "hits": 438,
+     "null_n": 4667,
+     "null_hits": 1524,
+     "hit_rate": 0.2833,
+     "null_hit_rate": 0.3265,
+     "spread": -0.0432
+    },
+    "w30_fix6": {
+     "n": 1311,
+     "hits": 791,
+     "null_n": 4127,
+     "null_hits": 2393,
+     "hit_rate": 0.6034,
+     "null_hit_rate": 0.5798,
+     "spread": 0.0236
+    },
+    "w60_fix6": {
+     "n": 1233,
+     "hits": 802,
+     "null_n": 3943,
+     "null_hits": 2414,
+     "hit_rate": 0.6504,
+     "null_hit_rate": 0.6122,
+     "spread": 0.0382
+    },
+    "w10_atr2": {
+     "n": 1525,
+     "hits": 471,
+     "null_n": 4589,
+     "null_hits": 1369,
+     "hit_rate": 0.3089,
+     "null_hit_rate": 0.2983,
+     "spread": 0.0106
+    },
+    "w30_atr2": {
+     "n": 1337,
+     "hits": 844,
+     "null_n": 4029,
+     "null_hits": 2427,
+     "hit_rate": 0.6313,
+     "null_hit_rate": 0.6024,
+     "spread": 0.0289
+    },
+    "w60_atr2": {
+     "n": 1245,
+     "hits": 855,
+     "null_n": 3751,
+     "null_hits": 2453,
+     "hit_rate": 0.6867,
+     "null_hit_rate": 0.654,
+     "spread": 0.0327
+    }
+   }
+  },
+  {
+   "pattern": "Cup & Handle",
+   "timeframe": "daily",
+   "events": 1907,
+   "pending": 1278,
+   "configs": {
+    "w10_fix6": {
+     "n": 1792,
+     "hits": 422,
+     "null_n": 5388,
+     "null_hits": 1536,
+     "hit_rate": 0.2355,
+     "null_hit_rate": 0.2851,
+     "spread": -0.0496
+    },
+    "w30_fix6": {
+     "n": 1678,
+     "hits": 546,
+     "null_n": 5027,
+     "null_hits": 1821,
+     "hit_rate": 0.3254,
+     "null_hit_rate": 0.3622,
+     "spread": -0.0368
+    },
+    "w60_fix6": {
+     "n": 1526,
+     "hits": 546,
+     "null_n": 4712,
+     "null_hits": 1821,
+     "hit_rate": 0.3578,
+     "null_hit_rate": 0.3865,
+     "spread": -0.0287
+    },
+    "w10_atr2": {
+     "n": 1785,
+     "hits": 357,
+     "null_n": 5358,
+     "null_hits": 1040,
+     "hit_rate": 0.2,
+     "null_hit_rate": 0.1941,
+     "spread": 0.0059
+    },
+    "w30_atr2": {
+     "n": 1684,
+     "hits": 513,
+     "null_n": 4993,
+     "null_hits": 1503,
+     "hit_rate": 0.3046,
+     "null_hit_rate": 0.301,
+     "spread": 0.0036
+    },
+    "w60_atr2": {
+     "n": 1535,
+     "hits": 514,
+     "null_n": 4461,
+     "null_hits": 1509,
+     "hit_rate": 0.3349,
+     "null_hit_rate": 0.3383,
+     "spread": -0.0034
+    }
+   }
+  },
+  {
+   "pattern": "Falling Wedge",
+   "timeframe": "daily",
+   "events": 961,
+   "pending": 749,
+   "configs": {
+    "w10_fix6": {
+     "n": 735,
+     "hits": 238,
+     "null_n": 2190,
+     "null_hits": 562,
+     "hit_rate": 0.3238,
+     "null_hit_rate": 0.2566,
+     "spread": 0.0672
+    },
+    "w30_fix6": {
+     "n": 684,
+     "hits": 262,
+     "null_n": 1911,
+     "null_hits": 624,
+     "hit_rate": 0.383,
+     "null_hit_rate": 0.3265,
+     "spread": 0.0565
+    },
+    "w60_fix6": {
+     "n": 679,
+     "hits": 262,
+     "null_n": 1853,
+     "null_hits": 624,
+     "hit_rate": 0.3859,
+     "null_hit_rate": 0.3368,
+     "spread": 0.0491
+    },
+    "w10_atr2": {
+     "n": 720,
+     "hits": 163,
+     "null_n": 2158,
+     "null_hits": 405,
+     "hit_rate": 0.2264,
+     "null_hit_rate": 0.1877,
+     "spread": 0.0387
+    },
+    "w30_atr2": {
+     "n": 629,
+     "hits": 213,
+     "null_n": 1854,
+     "null_hits": 547,
+     "hit_rate": 0.3386,
+     "null_hit_rate": 0.295,
+     "spread": 0.0436
+    },
+    "w60_atr2": {
+     "n": 605,
+     "hits": 213,
+     "null_n": 1757,
+     "null_hits": 547,
+     "hit_rate": 0.3521,
+     "null_hit_rate": 0.3113,
+     "spread": 0.0408
+    }
+   }
+  },
+  {
+   "pattern": "Bear Flag",
+   "timeframe": "daily",
+   "events": 905,
+   "pending": 729,
+   "configs": {
+    "w10_fix6": {
+     "n": 701,
+     "hits": 312,
+     "null_n": 2101,
+     "null_hits": 734,
+     "hit_rate": 0.4451,
+     "null_hit_rate": 0.3494,
+     "spread": 0.0957
+    },
+    "w30_fix6": {
+     "n": 665,
+     "hits": 396,
+     "null_n": 1848,
+     "null_hits": 1128,
+     "hit_rate": 0.5955,
+     "null_hit_rate": 0.6104,
+     "spread": -0.0149
+    },
+    "w60_fix6": {
+     "n": 660,
+     "hits": 397,
+     "null_n": 1804,
+     "null_hits": 1134,
+     "hit_rate": 0.6015,
+     "null_hit_rate": 0.6286,
+     "spread": -0.0271
+    },
+    "w10_atr2": {
+     "n": 676,
+     "hits": 164,
+     "null_n": 2047,
+     "null_hits": 624,
+     "hit_rate": 0.2426,
+     "null_hit_rate": 0.3048,
+     "spread": -0.0622
+    },
+    "w30_atr2": {
+     "n": 541,
+     "hits": 334,
+     "null_n": 1752,
+     "null_hits": 1094,
+     "hit_rate": 0.6174,
+     "null_hit_rate": 0.6244,
+     "spread": -0.007
+    },
+    "w60_atr2": {
+     "n": 484,
+     "hits": 335,
+     "null_n": 1656,
+     "null_hits": 1098,
+     "hit_rate": 0.6921,
+     "null_hit_rate": 0.663,
+     "spread": 0.0291
+    }
+   }
+  },
+  {
+   "pattern": "Rectangle Range",
+   "timeframe": "daily",
+   "events": 861,
+   "pending": 685,
+   "configs": {
+    "w10_fix6": {
+     "n": 656,
+     "hits": 109,
+     "null_n": 2009,
+     "null_hits": 594,
+     "hit_rate": 0.1662,
+     "null_hit_rate": 0.2957,
+     "spread": -0.1295
+    },
+    "w30_fix6": {
+     "n": 504,
+     "hits": 201,
+     "null_n": 1783,
+     "null_hits": 801,
+     "hit_rate": 0.3988,
+     "null_hit_rate": 0.4492,
+     "spread": -0.0504
+    },
+    "w60_fix6": {
+     "n": 474,
+     "hits": 202,
+     "null_n": 1716,
+     "null_hits": 803,
+     "hit_rate": 0.4262,
+     "null_hit_rate": 0.4679,
+     "spread": -0.0417
+    },
+    "w10_atr2": {
+     "n": 658,
+     "hits": 152,
+     "null_n": 1979,
+     "null_hits": 474,
+     "hit_rate": 0.231,
+     "null_hit_rate": 0.2395,
+     "spread": -0.0085
+    },
+    "w30_atr2": {
+     "n": 587,
+     "hits": 250,
+     "null_n": 1711,
+     "null_hits": 724,
+     "hit_rate": 0.4259,
+     "null_hit_rate": 0.4231,
+     "spread": 0.0028
+    },
+    "w60_atr2": {
+     "n": 565,
+     "hits": 250,
+     "null_n": 1592,
+     "null_hits": 728,
+     "hit_rate": 0.4425,
+     "null_hit_rate": 0.4573,
+     "spread": -0.0148
+    }
+   }
+  },
+  {
+   "pattern": "Bull Flag",
+   "timeframe": "daily",
+   "events": 749,
+   "pending": 540,
+   "configs": {
+    "w10_fix6": {
+     "n": 702,
+     "hits": 250,
+     "null_n": 2106,
+     "null_hits": 530,
+     "hit_rate": 0.3561,
+     "null_hit_rate": 0.2517,
+     "spread": 0.1044
+    },
+    "w30_fix6": {
+     "n": 651,
+     "hits": 277,
+     "null_n": 1850,
+     "null_hits": 621,
+     "hit_rate": 0.4255,
+     "null_hit_rate": 0.3357,
+     "spread": 0.0898
+    },
+    "w60_fix6": {
+     "n": 637,
+     "hits": 277,
+     "null_n": 1796,
+     "null_hits": 621,
+     "hit_rate": 0.4349,
+     "null_hit_rate": 0.3458,
+     "spread": 0.0891
+    },
+    "w10_atr2": {
+     "n": 698,
+     "hits": 161,
+     "null_n": 2096,
+     "null_hits": 396,
+     "hit_rate": 0.2307,
+     "null_hit_rate": 0.1889,
+     "spread": 0.0418
+    },
+    "w30_atr2": {
+     "n": 578,
+     "hits": 217,
+     "null_n": 1821,
+     "null_hits": 565,
+     "hit_rate": 0.3754,
+     "null_hit_rate": 0.3103,
+     "spread": 0.0651
+    },
+    "w60_atr2": {
+     "n": 528,
+     "hits": 217,
+     "null_n": 1740,
+     "null_hits": 565,
+     "hit_rate": 0.411,
+     "null_hit_rate": 0.3247,
+     "spread": 0.0863
+    }
+   }
+  },
+  {
+   "pattern": "Double Bottom",
+   "timeframe": "daily",
+   "events": 622,
+   "pending": 489,
+   "configs": {
+    "w10_fix6": {
+     "n": 528,
+     "hits": 141,
+     "null_n": 1584,
+     "null_hits": 407,
+     "hit_rate": 0.267,
+     "null_hit_rate": 0.2569,
+     "spread": 0.0101
+    },
+    "w30_fix6": {
+     "n": 461,
+     "hits": 165,
+     "null_n": 1365,
+     "null_hits": 459,
+     "hit_rate": 0.3579,
+     "null_hit_rate": 0.3363,
+     "spread": 0.0216
+    },
+    "w60_fix6": {
+     "n": 451,
+     "hits": 165,
+     "null_n": 1284,
+     "null_hits": 459,
+     "hit_rate": 0.3659,
+     "null_hit_rate": 0.3575,
+     "spread": 0.0084
+    },
+    "w10_atr2": {
+     "n": 523,
+     "hits": 101,
+     "null_n": 1562,
+     "null_hits": 317,
+     "hit_rate": 0.1931,
+     "null_hit_rate": 0.2029,
+     "spread": -0.0098
+    },
+    "w30_atr2": {
+     "n": 433,
+     "hits": 140,
+     "null_n": 1360,
+     "null_hits": 423,
+     "hit_rate": 0.3233,
+     "null_hit_rate": 0.311,
+     "spread": 0.0123
+    },
+    "w60_atr2": {
+     "n": 411,
+     "hits": 140,
+     "null_n": 1247,
+     "null_hits": 427,
+     "hit_rate": 0.3406,
+     "null_hit_rate": 0.3424,
+     "spread": -0.0018
+    }
+   }
+  },
+  {
+   "pattern": "Bull Flag",
+   "timeframe": "weekly",
+   "events": 598,
+   "pending": 479,
+   "configs": {
+    "w10_fix6": {
+     "n": 480,
+     "hits": 92,
+     "null_n": 1465,
+     "null_hits": 363,
+     "hit_rate": 0.1917,
+     "null_hit_rate": 0.2478,
+     "spread": -0.0561
+    },
+    "w30_fix6": {
+     "n": 360,
+     "hits": 113,
+     "null_n": 1269,
+     "null_hits": 421,
+     "hit_rate": 0.3139,
+     "null_hit_rate": 0.3318,
+     "spread": -0.0179
+    },
+    "w60_fix6": {
+     "n": 341,
+     "hits": 113,
+     "null_n": 1226,
+     "null_hits": 421,
+     "hit_rate": 0.3314,
+     "null_hit_rate": 0.3434,
+     "spread": -0.012
+    },
+    "w10_atr2": {
+     "n": 476,
+     "hits": 93,
+     "null_n": 1442,
+     "null_hits": 282,
+     "hit_rate": 0.1954,
+     "null_hit_rate": 0.1956,
+     "spread": -0.0002
+    },
+    "w30_atr2": {
+     "n": 402,
+     "hits": 123,
+     "null_n": 1246,
+     "null_hits": 377,
+     "hit_rate": 0.306,
+     "null_hit_rate": 0.3026,
+     "spread": 0.0034
+    },
+    "w60_atr2": {
+     "n": 383,
+     "hits": 123,
+     "null_n": 1180,
+     "null_hits": 377,
+     "hit_rate": 0.3211,
+     "null_hit_rate": 0.3195,
+     "spread": 0.0016
+    }
+   }
+  },
+  {
+   "pattern": "Double Top",
+   "timeframe": "weekly",
+   "events": 565,
+   "pending": 419,
+   "configs": {
+    "w10_fix6": {
+     "n": 480,
+     "hits": 137,
+     "null_n": 1457,
+     "null_hits": 467,
+     "hit_rate": 0.2854,
+     "null_hit_rate": 0.3205,
+     "spread": -0.0351
+    },
+    "w30_fix6": {
+     "n": 433,
+     "hits": 262,
+     "null_n": 1353,
+     "null_hits": 754,
+     "hit_rate": 0.6051,
+     "null_hit_rate": 0.5573,
+     "spread": 0.0478
+    },
+    "w60_fix6": {
+     "n": 407,
+     "hits": 266,
+     "null_n": 1261,
+     "null_hits": 763,
+     "hit_rate": 0.6536,
+     "null_hit_rate": 0.6051,
+     "spread": 0.0485
+    },
+    "w10_atr2": {
+     "n": 478,
+     "hits": 151,
+     "null_n": 1442,
+     "null_hits": 387,
+     "hit_rate": 0.3159,
+     "null_hit_rate": 0.2684,
+     "spread": 0.0475
+    },
+    "w30_atr2": {
+     "n": 445,
+     "hits": 293,
+     "null_n": 1326,
+     "null_hits": 747,
+     "hit_rate": 0.6584,
+     "null_hit_rate": 0.5633,
+     "spread": 0.0951
+    },
+    "w60_atr2": {
+     "n": 411,
+     "hits": 297,
+     "null_n": 1167,
+     "null_hits": 763,
+     "hit_rate": 0.7226,
+     "null_hit_rate": 0.6538,
+     "spread": 0.0688
+    }
+   }
+  },
+  {
+   "pattern": "Ascending Triangle",
+   "timeframe": "daily",
+   "events": 557,
+   "pending": 409,
+   "configs": {
+    "w10_fix6": {
+     "n": 498,
+     "hits": 79,
+     "null_n": 1498,
+     "null_hits": 412,
+     "hit_rate": 0.1586,
+     "null_hit_rate": 0.275,
+     "spread": -0.1164
+    },
+    "w30_fix6": {
+     "n": 403,
+     "hits": 92,
+     "null_n": 1354,
+     "null_hits": 475,
+     "hit_rate": 0.2283,
+     "null_hit_rate": 0.3508,
+     "spread": -0.1225
+    },
+    "w60_fix6": {
+     "n": 353,
+     "hits": 92,
+     "null_n": 1285,
+     "null_hits": 475,
+     "hit_rate": 0.2606,
+     "null_hit_rate": 0.3696,
+     "spread": -0.109
+    },
+    "w10_atr2": {
+     "n": 497,
+     "hits": 95,
+     "null_n": 1485,
+     "null_hits": 287,
+     "hit_rate": 0.1911,
+     "null_hit_rate": 0.1933,
+     "spread": -0.0022
+    },
+    "w30_atr2": {
+     "n": 454,
+     "hits": 119,
+     "null_n": 1322,
+     "null_hits": 410,
+     "hit_rate": 0.2621,
+     "null_hit_rate": 0.3101,
+     "spread": -0.048
+    },
+    "w60_atr2": {
+     "n": 429,
+     "hits": 119,
+     "null_n": 1212,
+     "null_hits": 410,
+     "hit_rate": 0.2774,
+     "null_hit_rate": 0.3383,
+     "spread": -0.0609
+    }
+   }
+  },
+  {
+   "pattern": "Cup & Handle",
+   "timeframe": "weekly",
+   "events": 442,
+   "pending": 304,
+   "configs": {
+    "w10_fix6": {
+     "n": 410,
+     "hits": 52,
+     "null_n": 1239,
+     "null_hits": 380,
+     "hit_rate": 0.1268,
+     "null_hit_rate": 0.3067,
+     "spread": -0.1799
+    },
+    "w30_fix6": {
+     "n": 388,
+     "hits": 70,
+     "null_n": 1180,
+     "null_hits": 457,
+     "hit_rate": 0.1804,
+     "null_hit_rate": 0.3873,
+     "spread": -0.2069
+    },
+    "w60_fix6": {
+     "n": 314,
+     "hits": 70,
+     "null_n": 1101,
+     "null_hits": 457,
+     "hit_rate": 0.2229,
+     "null_hit_rate": 0.4151,
+     "spread": -0.1922
+    },
+    "w10_atr2": {
+     "n": 413,
+     "hits": 63,
+     "null_n": 1229,
+     "null_hits": 238,
+     "hit_rate": 0.1525,
+     "null_hit_rate": 0.1937,
+     "spread": -0.0412
+    },
+    "w30_atr2": {
+     "n": 400,
+     "hits": 83,
+     "null_n": 1177,
+     "null_hits": 365,
+     "hit_rate": 0.2075,
+     "null_hit_rate": 0.3101,
+     "spread": -0.1026
+    },
+    "w60_atr2": {
+     "n": 371,
+     "hits": 83,
+     "null_n": 1025,
+     "null_hits": 366,
+     "hit_rate": 0.2237,
+     "null_hit_rate": 0.3571,
+     "spread": -0.1334
+    }
+   }
+  },
+  {
+   "pattern": "Rising Wedge",
+   "timeframe": "daily",
+   "events": 437,
+   "pending": 335,
+   "configs": {
+    "w10_fix6": {
+     "n": 372,
+     "hits": 122,
+     "null_n": 1101,
+     "null_hits": 403,
+     "hit_rate": 0.328,
+     "null_hit_rate": 0.366,
+     "spread": -0.038
+    },
+    "w30_fix6": {
+     "n": 310,
+     "hits": 189,
+     "null_n": 949,
+     "null_hits": 606,
+     "hit_rate": 0.6097,
+     "null_hit_rate": 0.6386,
+     "spread": -0.0289
+    },
+    "w60_fix6": {
+     "n": 304,
+     "hits": 189,
+     "null_n": 920,
+     "null_hits": 606,
+     "hit_rate": 0.6217,
+     "null_hit_rate": 0.6587,
+     "spread": -0.037
+    },
+    "w10_atr2": {
+     "n": 365,
+     "hits": 111,
+     "null_n": 1086,
+     "null_hits": 364,
+     "hit_rate": 0.3041,
+     "null_hit_rate": 0.3352,
+     "spread": -0.0311
+    },
+    "w30_atr2": {
+     "n": 310,
+     "hits": 183,
+     "null_n": 940,
+     "null_hits": 618,
+     "hit_rate": 0.5903,
+     "null_hit_rate": 0.6574,
+     "spread": -0.0671
+    },
+    "w60_atr2": {
+     "n": 297,
+     "hits": 185,
+     "null_n": 888,
+     "null_hits": 620,
+     "hit_rate": 0.6229,
+     "null_hit_rate": 0.6982,
+     "spread": -0.0753
+    }
+   }
+  },
+  {
+   "pattern": "Falling Wedge",
+   "timeframe": "weekly",
+   "events": 402,
+   "pending": 290,
+   "configs": {
+    "w10_fix6": {
+     "n": 360,
+     "hits": 126,
+     "null_n": 1069,
+     "null_hits": 313,
+     "hit_rate": 0.35,
+     "null_hit_rate": 0.2928,
+     "spread": 0.0572
+    },
+    "w30_fix6": {
+     "n": 351,
+     "hits": 140,
+     "null_n": 981,
+     "null_hits": 356,
+     "hit_rate": 0.3989,
+     "null_hit_rate": 0.3629,
+     "spread": 0.036
+    },
+    "w60_fix6": {
+     "n": 347,
+     "hits": 140,
+     "null_n": 913,
+     "null_hits": 356,
+     "hit_rate": 0.4035,
+     "null_hit_rate": 0.3899,
+     "spread": 0.0136
+    },
+    "w10_atr2": {
+     "n": 349,
+     "hits": 86,
+     "null_n": 1056,
+     "null_hits": 216,
+     "hit_rate": 0.2464,
+     "null_hit_rate": 0.2045,
+     "spread": 0.0419
+    },
+    "w30_atr2": {
+     "n": 320,
+     "hits": 106,
+     "null_n": 972,
+     "null_hits": 282,
+     "hit_rate": 0.3312,
+     "null_hit_rate": 0.2901,
+     "spread": 0.0411
+    },
+    "w60_atr2": {
+     "n": 292,
+     "hits": 106,
+     "null_n": 865,
+     "null_hits": 282,
+     "hit_rate": 0.363,
+     "null_hit_rate": 0.326,
+     "spread": 0.037
+    }
+   }
+  },
+  {
+   "pattern": "Symmetrical Triangle",
+   "timeframe": "daily",
+   "events": 322,
+   "pending": 240,
+   "configs": {
+    "w10_fix6": {
+     "n": 276,
+     "hits": 87,
+     "null_n": 791,
+     "null_hits": 279,
+     "hit_rate": 0.3152,
+     "null_hit_rate": 0.3527,
+     "spread": -0.0375
+    },
+    "w30_fix6": {
+     "n": 260,
+     "hits": 112,
+     "null_n": 694,
+     "null_hits": 376,
+     "hit_rate": 0.4308,
+     "null_hit_rate": 0.5418,
+     "spread": -0.111
+    },
+    "w60_fix6": {
+     "n": 259,
+     "hits": 113,
+     "null_n": 676,
+     "null_hits": 376,
+     "hit_rate": 0.4363,
+     "null_hit_rate": 0.5562,
+     "spread": -0.1199
+    },
+    "w10_atr2": {
+     "n": 263,
+     "hits": 69,
+     "null_n": 783,
+     "null_hits": 237,
+     "hit_rate": 0.2624,
+     "null_hit_rate": 0.3027,
+     "spread": -0.0403
+    },
+    "w30_atr2": {
+     "n": 227,
+     "hits": 105,
+     "null_n": 672,
+     "null_hits": 352,
+     "hit_rate": 0.4626,
+     "null_hit_rate": 0.5238,
+     "spread": -0.0612
+    },
+    "w60_atr2": {
+     "n": 219,
+     "hits": 105,
+     "null_n": 640,
+     "null_hits": 352,
+     "hit_rate": 0.4795,
+     "null_hit_rate": 0.55,
+     "spread": -0.0705
+    }
+   }
+  },
+  {
+   "pattern": "Rising Wedge",
+   "timeframe": "weekly",
+   "events": 285,
+   "pending": 212,
+   "configs": {
+    "w10_fix6": {
+     "n": 261,
+     "hits": 59,
+     "null_n": 788,
+     "null_hits": 264,
+     "hit_rate": 0.2261,
+     "null_hit_rate": 0.335,
+     "spread": -0.1089
+    },
+    "w30_fix6": {
+     "n": 225,
+     "hits": 140,
+     "null_n": 729,
+     "null_hits": 428,
+     "hit_rate": 0.6222,
+     "null_hit_rate": 0.5871,
+     "spread": 0.0351
+    },
+    "w60_fix6": {
+     "n": 203,
+     "hits": 142,
+     "null_n": 684,
+     "null_hits": 433,
+     "hit_rate": 0.6995,
+     "null_hit_rate": 0.633,
+     "spread": 0.0665
+    },
+    "w10_atr2": {
+     "n": 261,
+     "hits": 85,
+     "null_n": 776,
+     "null_hits": 227,
+     "hit_rate": 0.3257,
+     "null_hit_rate": 0.2925,
+     "spread": 0.0332
+    },
+    "w30_atr2": {
+     "n": 234,
+     "hits": 153,
+     "null_n": 714,
+     "null_hits": 427,
+     "hit_rate": 0.6538,
+     "null_hit_rate": 0.598,
+     "spread": 0.0558
+    },
+    "w60_atr2": {
+     "n": 219,
+     "hits": 154,
+     "null_n": 644,
+     "null_hits": 430,
+     "hit_rate": 0.7032,
+     "null_hit_rate": 0.6677,
+     "spread": 0.0355
+    }
+   }
+  },
+  {
+   "pattern": "Head & Shoulders",
+   "timeframe": "daily",
+   "events": 268,
+   "pending": 220,
+   "configs": {
+    "w10_fix6": {
+     "n": 209,
+     "hits": 77,
+     "null_n": 624,
+     "null_hits": 230,
+     "hit_rate": 0.3684,
+     "null_hit_rate": 0.3686,
+     "spread": -0.0002
+    },
+    "w30_fix6": {
+     "n": 176,
+     "hits": 110,
+     "null_n": 544,
+     "null_hits": 336,
+     "hit_rate": 0.625,
+     "null_hit_rate": 0.6176,
+     "spread": 0.0074
+    },
+    "w60_fix6": {
+     "n": 173,
+     "hits": 110,
+     "null_n": 522,
+     "null_hits": 339,
+     "hit_rate": 0.6358,
+     "null_hit_rate": 0.6494,
+     "spread": -0.0136
+    },
+    "w10_atr2": {
+     "n": 206,
+     "hits": 74,
+     "null_n": 619,
+     "null_hits": 215,
+     "hit_rate": 0.3592,
+     "null_hit_rate": 0.3473,
+     "spread": 0.0119
+    },
+    "w30_atr2": {
+     "n": 173,
+     "hits": 111,
+     "null_n": 531,
+     "null_hits": 342,
+     "hit_rate": 0.6416,
+     "null_hit_rate": 0.6441,
+     "spread": -0.0025
+    },
+    "w60_atr2": {
+     "n": 160,
+     "hits": 111,
+     "null_n": 493,
+     "null_hits": 345,
+     "hit_rate": 0.6937,
+     "null_hit_rate": 0.6998,
+     "spread": -0.0061
+    }
+   }
+  },
+  {
+   "pattern": "Inverse Head & Shoulders",
+   "timeframe": "daily",
+   "events": 210,
+   "pending": 156,
+   "configs": {
+    "w10_fix6": {
+     "n": 182,
+     "hits": 54,
+     "null_n": 552,
+     "null_hits": 141,
+     "hit_rate": 0.2967,
+     "null_hit_rate": 0.2554,
+     "spread": 0.0413
+    },
+    "w30_fix6": {
+     "n": 161,
+     "hits": 62,
+     "null_n": 485,
+     "null_hits": 165,
+     "hit_rate": 0.3851,
+     "null_hit_rate": 0.3402,
+     "spread": 0.0449
+    },
+    "w60_fix6": {
+     "n": 160,
+     "hits": 62,
+     "null_n": 469,
+     "null_hits": 165,
+     "hit_rate": 0.3875,
+     "null_hit_rate": 0.3518,
+     "spread": 0.0357
+    },
+    "w10_atr2": {
+     "n": 179,
+     "hits": 50,
+     "null_n": 543,
+     "null_hits": 106,
+     "hit_rate": 0.2793,
+     "null_hit_rate": 0.1952,
+     "spread": 0.0841
+    },
+    "w30_atr2": {
+     "n": 158,
+     "hits": 62,
+     "null_n": 466,
+     "null_hits": 155,
+     "hit_rate": 0.3924,
+     "null_hit_rate": 0.3326,
+     "spread": 0.0598
+    },
+    "w60_atr2": {
+     "n": 153,
+     "hits": 62,
+     "null_n": 448,
+     "null_hits": 155,
+     "hit_rate": 0.4052,
+     "null_hit_rate": 0.346,
+     "spread": 0.0592
+    }
+   }
+  },
+  {
+   "pattern": "Bear Flag",
+   "timeframe": "weekly",
+   "events": 192,
+   "pending": 141,
+   "configs": {
+    "w10_fix6": {
+     "n": 178,
+     "hits": 73,
+     "null_n": 529,
+     "null_hits": 187,
+     "hit_rate": 0.4101,
+     "null_hit_rate": 0.3535,
+     "spread": 0.0566
+    },
+    "w30_fix6": {
+     "n": 171,
+     "hits": 98,
+     "null_n": 449,
+     "null_hits": 281,
+     "hit_rate": 0.5731,
+     "null_hit_rate": 0.6258,
+     "spread": -0.0527
+    },
+    "w60_fix6": {
+     "n": 171,
+     "hits": 98,
+     "null_n": 438,
+     "null_hits": 281,
+     "hit_rate": 0.5731,
+     "null_hit_rate": 0.6416,
+     "spread": -0.0685
+    },
+    "w10_atr2": {
+     "n": 176,
+     "hits": 55,
+     "null_n": 526,
+     "null_hits": 163,
+     "hit_rate": 0.3125,
+     "null_hit_rate": 0.3099,
+     "spread": 0.0026
+    },
+    "w30_atr2": {
+     "n": 157,
+     "hits": 97,
+     "null_n": 441,
+     "null_hits": 268,
+     "hit_rate": 0.6178,
+     "null_hit_rate": 0.6077,
+     "spread": 0.0101
+    },
+    "w60_atr2": {
+     "n": 154,
+     "hits": 97,
+     "null_n": 424,
+     "null_hits": 268,
+     "hit_rate": 0.6299,
+     "null_hit_rate": 0.6321,
+     "spread": -0.0022
+    }
+   }
+  },
+  {
+   "pattern": "Symmetrical Triangle",
+   "timeframe": "weekly",
+   "events": 166,
+   "pending": 129,
+   "configs": {
+    "w10_fix6": {
+     "n": 140,
+     "hits": 56,
+     "null_n": 408,
+     "null_hits": 128,
+     "hit_rate": 0.4,
+     "null_hit_rate": 0.3137,
+     "spread": 0.0863
+    },
+    "w30_fix6": {
+     "n": 129,
+     "hits": 67,
+     "null_n": 363,
+     "null_hits": 170,
+     "hit_rate": 0.5194,
+     "null_hit_rate": 0.4683,
+     "spread": 0.0511
+    },
+    "w60_fix6": {
+     "n": 126,
+     "hits": 67,
+     "null_n": 338,
+     "null_hits": 171,
+     "hit_rate": 0.5317,
+     "null_hit_rate": 0.5059,
+     "spread": 0.0258
+    },
+    "w10_atr2": {
+     "n": 135,
+     "hits": 38,
+     "null_n": 399,
+     "null_hits": 96,
+     "hit_rate": 0.2815,
+     "null_hit_rate": 0.2406,
+     "spread": 0.0409
+    },
+    "w30_atr2": {
+     "n": 121,
+     "hits": 55,
+     "null_n": 368,
+     "null_hits": 172,
+     "hit_rate": 0.4545,
+     "null_hit_rate": 0.4674,
+     "spread": -0.0129
+    },
+    "w60_atr2": {
+     "n": 108,
+     "hits": 55,
+     "null_n": 328,
+     "null_hits": 172,
+     "hit_rate": 0.5093,
+     "null_hit_rate": 0.5244,
+     "spread": -0.0151
+    }
+   }
+  },
+  {
+   "pattern": "Double Bottom",
+   "timeframe": "weekly",
+   "events": 150,
+   "pending": 108,
+   "configs": {
+    "w10_fix6": {
+     "n": 141,
+     "hits": 36,
+     "null_n": 418,
+     "null_hits": 134,
+     "hit_rate": 0.2553,
+     "null_hit_rate": 0.3206,
+     "spread": -0.0653
+    },
+    "w30_fix6": {
+     "n": 135,
+     "hits": 46,
+     "null_n": 388,
+     "null_hits": 156,
+     "hit_rate": 0.3407,
+     "null_hit_rate": 0.4021,
+     "spread": -0.0614
+    },
+    "w60_fix6": {
+     "n": 125,
+     "hits": 46,
+     "null_n": 370,
+     "null_hits": 156,
+     "hit_rate": 0.368,
+     "null_hit_rate": 0.4216,
+     "spread": -0.0536
+    },
+    "w10_atr2": {
+     "n": 140,
+     "hits": 20,
+     "null_n": 416,
+     "null_hits": 94,
+     "hit_rate": 0.1429,
+     "null_hit_rate": 0.226,
+     "spread": -0.0831
+    },
+    "w30_atr2": {
+     "n": 128,
+     "hits": 36,
+     "null_n": 384,
+     "null_hits": 131,
+     "hit_rate": 0.2812,
+     "null_hit_rate": 0.3411,
+     "spread": -0.0599
+    },
+    "w60_atr2": {
+     "n": 114,
+     "hits": 36,
+     "null_n": 346,
+     "null_hits": 131,
+     "hit_rate": 0.3158,
+     "null_hit_rate": 0.3786,
+     "spread": -0.0628
+    }
+   }
+  },
+  {
+   "pattern": "Ascending Triangle",
+   "timeframe": "weekly",
+   "events": 108,
+   "pending": 77,
+   "configs": {
+    "w10_fix6": {
+     "n": 104,
+     "hits": 7,
+     "null_n": 315,
+     "null_hits": 93,
+     "hit_rate": 0.0673,
+     "null_hit_rate": 0.2952,
+     "spread": -0.2279
+    },
+    "w30_fix6": {
+     "n": 98,
+     "hits": 9,
+     "null_n": 288,
+     "null_hits": 114,
+     "hit_rate": 0.0918,
+     "null_hit_rate": 0.3958,
+     "spread": -0.304
+    },
+    "w60_fix6": {
+     "n": 89,
+     "hits": 9,
+     "null_n": 268,
+     "null_hits": 114,
+     "hit_rate": 0.1011,
+     "null_hit_rate": 0.4254,
+     "spread": -0.3243
+    },
+    "w10_atr2": {
+     "n": 103,
+     "hits": 9,
+     "null_n": 313,
+     "null_hits": 72,
+     "hit_rate": 0.0874,
+     "null_hit_rate": 0.23,
+     "spread": -0.1426
+    },
+    "w30_atr2": {
+     "n": 102,
+     "hits": 9,
+     "null_n": 286,
+     "null_hits": 91,
+     "hit_rate": 0.0882,
+     "null_hit_rate": 0.3182,
+     "spread": -0.23
+    },
+    "w60_atr2": {
+     "n": 94,
+     "hits": 9,
+     "null_n": 259,
+     "null_hits": 91,
+     "hit_rate": 0.0957,
+     "null_hit_rate": 0.3514,
+     "spread": -0.2557
+    }
+   }
+  },
+  {
+   "pattern": "Head & Shoulders",
+   "timeframe": "weekly",
+   "events": 87,
+   "pending": 64,
+   "configs": {
+    "w10_fix6": {
+     "n": 74,
+     "hits": 23,
+     "null_n": 224,
+     "null_hits": 71,
+     "hit_rate": 0.3108,
+     "null_hit_rate": 0.317,
+     "spread": -0.0062
+    },
+    "w30_fix6": {
+     "n": 68,
+     "hits": 38,
+     "null_n": 218,
+     "null_hits": 126,
+     "hit_rate": 0.5588,
+     "null_hit_rate": 0.578,
+     "spread": -0.0192
+    },
+    "w60_fix6": {
+     "n": 65,
+     "hits": 39,
+     "null_n": 208,
+     "null_hits": 127,
+     "hit_rate": 0.6,
+     "null_hit_rate": 0.6106,
+     "spread": -0.0106
+    },
+    "w10_atr2": {
+     "n": 73,
+     "hits": 24,
+     "null_n": 215,
+     "null_hits": 55,
+     "hit_rate": 0.3288,
+     "null_hit_rate": 0.2558,
+     "spread": 0.073
+    },
+    "w30_atr2": {
+     "n": 69,
+     "hits": 43,
+     "null_n": 203,
+     "null_hits": 112,
+     "hit_rate": 0.6232,
+     "null_hit_rate": 0.5517,
+     "spread": 0.0715
+    },
+    "w60_atr2": {
+     "n": 61,
+     "hits": 43,
+     "null_n": 180,
+     "null_hits": 112,
+     "hit_rate": 0.7049,
+     "null_hit_rate": 0.6222,
+     "spread": 0.0827
+    }
+   }
+  },
+  {
+   "pattern": "Inverse Head & Shoulders",
+   "timeframe": "weekly",
+   "events": 77,
+   "pending": 51,
+   "configs": {
+    "w10_fix6": {
+     "n": 67,
+     "hits": 16,
+     "null_n": 202,
+     "null_hits": 65,
+     "hit_rate": 0.2388,
+     "null_hit_rate": 0.3218,
+     "spread": -0.083
+    },
+    "w30_fix6": {
+     "n": 64,
+     "hits": 20,
+     "null_n": 191,
+     "null_hits": 74,
+     "hit_rate": 0.3125,
+     "null_hit_rate": 0.3874,
+     "spread": -0.0749
+    },
+    "w60_fix6": {
+     "n": 59,
+     "hits": 20,
+     "null_n": 181,
+     "null_hits": 74,
+     "hit_rate": 0.339,
+     "null_hit_rate": 0.4088,
+     "spread": -0.0698
+    },
+    "w10_atr2": {
+     "n": 67,
+     "hits": 12,
+     "null_n": 202,
+     "null_hits": 40,
+     "hit_rate": 0.1791,
+     "null_hit_rate": 0.198,
+     "spread": -0.0189
+    },
+    "w30_atr2": {
+     "n": 64,
+     "hits": 21,
+     "null_n": 186,
+     "null_hits": 55,
+     "hit_rate": 0.3281,
+     "null_hit_rate": 0.2957,
+     "spread": 0.0324
+    },
+    "w60_atr2": {
+     "n": 60,
+     "hits": 22,
+     "null_n": 175,
+     "null_hits": 55,
+     "hit_rate": 0.3667,
+     "null_hit_rate": 0.3143,
+     "spread": 0.0524
+    }
+   }
+  },
+  {
+   "pattern": "Descending Triangle",
+   "timeframe": "daily",
+   "events": 56,
+   "pending": 45,
+   "configs": {
+    "w10_fix6": {
+     "n": 46,
+     "hits": 5,
+     "null_n": 139,
+     "null_hits": 46,
+     "hit_rate": 0.1087,
+     "null_hit_rate": 0.3309,
+     "spread": -0.2222
+    },
+    "w30_fix6": {
+     "n": 37,
+     "hits": 24,
+     "null_n": 121,
+     "null_hits": 71,
+     "hit_rate": 0.6486,
+     "null_hit_rate": 0.5868,
+     "spread": 0.0618
+    },
+    "w60_fix6": {
+     "n": 35,
+     "hits": 24,
+     "null_n": 116,
+     "null_hits": 72,
+     "hit_rate": 0.6857,
+     "null_hit_rate": 0.6207,
+     "spread": 0.065
+    },
+    "w10_atr2": {
+     "n": 47,
+     "hits": 19,
+     "null_n": 137,
+     "null_hits": 51,
+     "hit_rate": 0.4043,
+     "null_hit_rate": 0.3723,
+     "spread": 0.032
+    },
+    "w30_atr2": {
+     "n": 45,
+     "hits": 32,
+     "null_n": 120,
+     "null_hits": 78,
+     "hit_rate": 0.7111,
+     "null_hit_rate": 0.65,
+     "spread": 0.0611
+    },
+    "w60_atr2": {
+     "n": 44,
+     "hits": 32,
+     "null_n": 109,
+     "null_hits": 78,
+     "hit_rate": 0.7273,
+     "null_hit_rate": 0.7156,
+     "spread": 0.0117
+    }
+   }
+  },
+  {
+   "pattern": "Rectangle Range",
+   "timeframe": "weekly",
+   "events": 44,
+   "pending": 40,
+   "configs": {
+    "w10_fix6": {
+     "n": 33,
+     "hits": 3,
+     "null_n": 101,
+     "null_hits": 36,
+     "hit_rate": 0.0909,
+     "null_hit_rate": 0.3564,
+     "spread": -0.2655
+    },
+    "w30_fix6": {
+     "n": 27,
+     "hits": 5,
+     "null_n": 87,
+     "null_hits": 40,
+     "hit_rate": 0.1852,
+     "null_hit_rate": 0.4598,
+     "spread": -0.2746
+    },
+    "w60_fix6": {
+     "n": 24,
+     "hits": 5,
+     "null_n": 82,
+     "null_hits": 40,
+     "hit_rate": 0.2083,
+     "null_hit_rate": 0.4878,
+     "spread": -0.2795
+    },
+    "w10_atr2": {
+     "n": 33,
+     "hits": 5,
+     "null_n": 96,
+     "null_hits": 16,
+     "hit_rate": 0.1515,
+     "null_hit_rate": 0.1667,
+     "spread": -0.0152
+    },
+    "w30_atr2": {
+     "n": 32,
+     "hits": 7,
+     "null_n": 80,
+     "null_hits": 23,
+     "hit_rate": 0.2188,
+     "null_hit_rate": 0.2875,
+     "spread": -0.0687
+    },
+    "w60_atr2": {
+     "n": 32,
+     "hits": 7,
+     "null_n": 70,
+     "null_hits": 23,
+     "hit_rate": 0.2188,
+     "null_hit_rate": 0.3286,
+     "spread": -0.1098
+    }
+   }
+  },
+  {
+   "pattern": "Descending Triangle",
+   "timeframe": "weekly",
+   "events": 2,
+   "pending": 0,
+   "configs": {
+    "w10_fix6": {
+     "n": 2,
+     "hits": 0,
+     "null_n": 6,
+     "null_hits": 2,
+     "hit_rate": 0.0,
+     "null_hit_rate": 0.3333,
+     "spread": -0.3333
+    },
+    "w30_fix6": {
+     "n": 2,
+     "hits": 2,
+     "null_n": 6,
+     "null_hits": 3,
+     "hit_rate": 1.0,
+     "null_hit_rate": 0.5,
+     "spread": 0.5
+    },
+    "w60_fix6": {
+     "n": 2,
+     "hits": 2,
+     "null_n": 6,
+     "null_hits": 3,
+     "hit_rate": 1.0,
+     "null_hit_rate": 0.5,
+     "spread": 0.5
+    },
+    "w10_atr2": {
+     "n": 2,
+     "hits": 1,
+     "null_n": 6,
+     "null_hits": 3,
+     "hit_rate": 0.5,
+     "null_hit_rate": 0.5,
+     "spread": 0.0
+    },
+    "w30_atr2": {
+     "n": 2,
+     "hits": 2,
+     "null_n": 6,
+     "null_hits": 3,
+     "hit_rate": 1.0,
+     "null_hit_rate": 0.5,
+     "spread": 0.5
+    },
+    "w60_atr2": {
+     "n": 2,
+     "hits": 2,
+     "null_n": 6,
+     "null_hits": 3,
+     "hit_rate": 1.0,
+     "null_hit_rate": 0.5,
+     "spread": 0.5
+    }
+   }
+  }
+ ]
+}

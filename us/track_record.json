@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-09-26T00:24:33+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "bf1ccc7ac",
+  "graded_under": {
+    "unstamped": 15925,
+    "8aa28a9c": 407
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 16332,
+  "followed_through": 5843,
+  "hit_rate": 0.358,
+  "pending": 1404,
+  "live_calls_logged": 29117,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-09-11",
+      "symbol": "ADX",
+      "price": 25.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "ALKT",
+      "price": 20.51,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "AMP",
+      "price": 557.61,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "ARW",
+      "price": 228.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "ASST",
+      "price": 27.62,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "ATRC",
+      "price": 54.54,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BBY",
+      "price": 90.8,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BCE",
+      "price": 23.39,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BDJ",
+      "price": 9.69,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BSAC",
+      "price": 35.19,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BST",
+      "price": 50.33,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "BSTZ",
+      "price": 31.04,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CDW",
+      "price": 153.79,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CMDB",
+      "price": 24.51,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CNXN",
+      "price": 85.76,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "COFS",
+      "price": 34.05,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CON",
+      "price": 34.95,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CPBI",
+      "price": 21.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "CTBI",
+      "price": 77.67,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-11",
+      "symbol": "DB",
+      "price": 40.48,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    }
+  ]
+}
