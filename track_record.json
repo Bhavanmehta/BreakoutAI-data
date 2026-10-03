@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-10-01T17:21:47+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "92132aa6d",
+  "graded_under": {
+    "unstamped": 2333,
+    "104892c8": 399
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 2732,
+  "followed_through": 1049,
+  "hit_rate": 0.384,
+  "pending": 610,
+  "live_calls_logged": 8469,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-09-16",
+      "symbol": "AKUMS",
+      "price": 772.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "ANTELOPUS",
+      "price": 1170.95,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "BHAGYANGR",
+      "price": 425.25,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "CENTUM",
+      "price": 4276.1,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "ECLERX",
+      "price": 1961.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "ELLEN",
+      "price": 374.65,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "FILATEX",
+      "price": 87.22,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "FIVESTAR",
+      "price": 549.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "IPCALAB",
+      "price": 1950.7,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "JKPAPER",
+      "price": 417.35,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "KRYSTAL",
+      "price": 655.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "NPST",
+      "price": 1834.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "ORTINGLOBE",
+      "price": 17.25,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "PARAGMILK",
+      "price": 269.1,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "PAYTM",
+      "price": 1790.0,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "PLAZACABLE",
+      "price": 62.51,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "PNB",
+      "price": 116.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "POLICYBZR",
+      "price": 1827.1,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "PVRINOX",
+      "price": 1254.6,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-09-16",
+      "symbol": "SHIVALIK",
+      "price": 389.15,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}
