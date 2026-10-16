@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-10-16T00:09:05+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "dc66c5363",
+  "graded_under": {
+    "unstamped": 15892,
+    "8aa28a9c": 805
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 16697,
+  "followed_through": 5740,
+  "hit_rate": 0.344,
+  "pending": 2192,
+  "live_calls_logged": 32566,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-09-30",
+      "symbol": "ARCC",
+      "price": 19.36,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "ATKR",
+      "price": 94.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "AUC",
+      "price": 9.12,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "AVPT",
+      "price": 14.08,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "CAI",
+      "price": 30.63,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "CBNK",
+      "price": 39.31,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "CVLT",
+      "price": 149.92,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "CYRX",
+      "price": 17.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "DLNG",
+      "price": 3.91,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "DSGX",
+      "price": 80.86,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "DT",
+      "price": 57.74,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "FOSL",
+      "price": 6.57,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "FTNT",
+      "price": 178.76,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "GDL",
+      "price": 8.34,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "GH",
+      "price": 178.36,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "HAFN",
+      "price": 9.94,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "HKD",
+      "price": 1.79,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "HPE",
+      "price": 63.89,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "IMOS",
+      "price": 71.77,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-09-30",
+      "symbol": "ITUB",
+      "price": 8.53,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    }
+  ]
+}

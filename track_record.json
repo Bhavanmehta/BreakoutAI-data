@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-10-16T15:13:55+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "dffc0898a",
+  "graded_under": {
+    "unstamped": 2324,
+    "104892c8": 654
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 2978,
+  "followed_through": 1100,
+  "hit_rate": 0.369,
+  "pending": 764,
+  "live_calls_logged": 9326,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-01",
+      "symbol": "AARTIPHARM",
+      "price": 968.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "AUROPHARMA",
+      "price": 1676.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "BLUSPRING",
+      "price": 147.82,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "BOSCH-HCIL",
+      "price": 1967.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "EBGNG",
+      "price": 704.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "EMKAY",
+      "price": 286.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "ENGINERSIN",
+      "price": 312.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "FINCABLES",
+      "price": 1458.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "INDIQUBE",
+      "price": 197.49,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "IPCALAB",
+      "price": 1943.2,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "LAURUSLABS",
+      "price": 1984.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "MANKIND",
+      "price": 2535.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "MARINE",
+      "price": 436.55,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "NRBBEARING",
+      "price": 542.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "OPTIEMUS",
+      "price": 803.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "PETRONET",
+      "price": 285.5,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "PRECWIRE",
+      "price": 501.4,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "PRIMESECU",
+      "price": 301.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "PRIVISCL",
+      "price": 3573.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-01",
+      "symbol": "RBLBANK",
+      "price": 411.4,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    }
+  ]
+}
