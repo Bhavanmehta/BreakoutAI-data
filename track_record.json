@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-10-23T15:36:09+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "b6006875d",
+  "graded_under": {
+    "unstamped": 2325,
+    "104892c8": 794
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 3119,
+  "followed_through": 1137,
+  "hit_rate": 0.365,
+  "pending": 656,
+  "live_calls_logged": 9432,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-08",
+      "symbol": "ANANDRATHI",
+      "price": 2138.9,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "IPCALAB",
+      "price": 1938.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "JKIPL",
+      "price": 103.48,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "PNB",
+      "price": 115.29,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "PNBHOUSING",
+      "price": 1150.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "SBC",
+      "price": 63.21,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-08",
+      "symbol": "VINDHYATEL",
+      "price": 2776.7,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "AAATECH",
+      "price": 106.79,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "ADANIGREEN",
+      "price": 1341.4,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "AEGISLOG",
+      "price": 1460.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "ANANTRAJ",
+      "price": 612.15,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "ANGELONE",
+      "price": 302.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "APOLLO",
+      "price": 414.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "ASAHIINDIA",
+      "price": 976.25,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "AVL",
+      "price": 621.1,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "CHENNPETRO",
+      "price": 1612.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "CONFIPET",
+      "price": 91.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "CYIENTDLM",
+      "price": 988.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "DEEPINDS",
+      "price": 795.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-07",
+      "symbol": "EBGNG",
+      "price": 731.35,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}
