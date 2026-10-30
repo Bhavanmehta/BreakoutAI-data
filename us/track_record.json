@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-10-30T01:33:38+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "8c49c51c2",
+  "graded_under": {
+    "unstamped": 15859,
+    "8aa28a9c": 1606
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 17465,
+  "followed_through": 5999,
+  "hit_rate": 0.343,
+  "pending": 2534,
+  "live_calls_logged": 36885,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-15",
+      "symbol": "ACCO",
+      "price": 4.58,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ACN",
+      "price": 224.92,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ADX",
+      "price": 25.79,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ALLT",
+      "price": 9.04,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "AMGN",
+      "price": 434.03,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "AMPL",
+      "price": 15.83,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ANF",
+      "price": 151.99,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "APLE",
+      "price": 16.86,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "APPN",
+      "price": 43.82,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ARQT",
+      "price": 29.1,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ASAN",
+      "price": 10.42,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ASO",
+      "price": 58.47,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ATLO",
+      "price": 32.15,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "AVTR",
+      "price": 16.09,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "BBY",
+      "price": 94.17,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "BCAL",
+      "price": 21.71,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "BLKB",
+      "price": 51.39,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "BXSL",
+      "price": 24.19,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "BZUN",
+      "price": 3.67,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "CAH",
+      "price": 253.71,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    }
+  ]
+}

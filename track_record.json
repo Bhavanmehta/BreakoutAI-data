@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-10-30T16:55:48+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "7a36b179d",
+  "graded_under": {
+    "unstamped": 2317,
+    "104892c8": 944
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 3261,
+  "followed_through": 1176,
+  "hit_rate": 0.361,
+  "pending": 604,
+  "live_calls_logged": 9637,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-15",
+      "symbol": "AAREYDRUGS",
+      "price": 108.74,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "INDHOTEL",
+      "price": 741.45,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "MBAPL",
+      "price": 170.78,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "MGEL",
+      "price": 16.87,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "MOTILALOFS",
+      "price": 1062.95,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "OAL",
+      "price": 579.15,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "ORIENTHOT",
+      "price": 145.58,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "SEJALLTD",
+      "price": 966.15,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-15",
+      "symbol": "TEXINFRA",
+      "price": 123.98,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "AAATECH",
+      "price": 111.57,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "ABDL",
+      "price": 743.45,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "ADVANCE",
+      "price": 155.67,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "AEGISLOG",
+      "price": 1489.1,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "APOLLO",
+      "price": 421.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "BAJAJCON",
+      "price": 520.05,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "BEPL",
+      "price": 130.89,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "BHEL",
+      "price": 464.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "CEIGALL",
+      "price": 388.35,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "DHANBANK",
+      "price": 34.41,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-14",
+      "symbol": "DPABHUSHAN",
+      "price": 2437.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}
