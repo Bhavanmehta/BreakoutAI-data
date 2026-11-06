@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-11-06T01:58:04+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "897f353f9",
+  "graded_under": {
+    "unstamped": 15827,
+    "8aa28a9c": 2053
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 17880,
+  "followed_through": 6136,
+  "hit_rate": 0.343,
+  "pending": 2955,
+  "live_calls_logged": 39462,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-22",
+      "symbol": "ACHC",
+      "price": 31.88,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "ADUS",
+      "price": 122.67,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AGYS",
+      "price": 120.07,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "ALL",
+      "price": 259.1,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "ALLE",
+      "price": 176.52,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AMAL",
+      "price": 50.31,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AMRX",
+      "price": 20.48,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AMTB",
+      "price": 29.66,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "APD",
+      "price": 308.22,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AR",
+      "price": 39.04,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "ARDT",
+      "price": 12.36,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AUPH",
+      "price": 17.33,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "AVY",
+      "price": 184.66,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BF-A",
+      "price": 30.91,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BF-B",
+      "price": 30.18,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BFST",
+      "price": 31.94,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BILL",
+      "price": 50.67,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BJ",
+      "price": 106.63,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BLX",
+      "price": 55.38,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BRK-A",
+      "price": 820500.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    }
+  ]
+}

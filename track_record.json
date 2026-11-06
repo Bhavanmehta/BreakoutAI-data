@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-11-06T17:44:34+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "38df9e094",
+  "graded_under": {
+    "unstamped": 2341,
+    "104892c8": 997
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 3338,
+  "followed_through": 1195,
+  "hit_rate": 0.358,
+  "pending": 652,
+  "live_calls_logged": 9962,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-23",
+      "symbol": "CYIENT",
+      "price": 1233.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-23",
+      "symbol": "MANOMAY",
+      "price": 243.91,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-23",
+      "symbol": "SSWL",
+      "price": 468.75,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "BAJAJHLDNG",
+      "price": 11293.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "CRISIL",
+      "price": 4777.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "DHANBANK",
+      "price": 37.09,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "FEDERALBNK",
+      "price": 347.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "INDHOTEL",
+      "price": 782.3,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "NINSYS",
+      "price": 903.55,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-22",
+      "symbol": "ORIENTHOT",
+      "price": 154.3,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "ANANDRATHI",
+      "price": 2200.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "COFORGE",
+      "price": 1951.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "GLOBAL",
+      "price": 143.19,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "HALEOSLABS",
+      "price": 1583.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "INDIANB",
+      "price": 859.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "SKYGOLD",
+      "price": 1045.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "UNIONBANK",
+      "price": 182.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-21",
+      "symbol": "UTTAMSUGAR",
+      "price": 388.85,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "BAJAJHLDNG",
+      "price": 11265.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-19",
+      "symbol": "FEDERALBNK",
+      "price": 348.85,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}
