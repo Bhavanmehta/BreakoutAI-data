@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-11-13T18:07:51+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "054129d00",
+  "graded_under": {
+    "unstamped": 2344,
+    "104892c8": 1070
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 3414,
+  "followed_through": 1223,
+  "hit_rate": 0.358,
+  "pending": 736,
+  "live_calls_logged": 10331,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-10-29",
+      "symbol": "ACUTAAS",
+      "price": 3976.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "ADANIPORTS",
+      "price": 1872.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "CEIGALL",
+      "price": 392.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "DLF",
+      "price": 694.35,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "ETERNAL",
+      "price": 337.85,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "ISGEC",
+      "price": 918.15,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "LTTS",
+      "price": 4182.6,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "MANBA",
+      "price": 147.04,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "MBAPL",
+      "price": 174.0,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "MPHASIS",
+      "price": 2561.3,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "NGIL",
+      "price": 42.51,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "NINSYS",
+      "price": 903.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "NITINSPIN",
+      "price": 648.05,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "PNB",
+      "price": 123.9,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "RATNAVEER",
+      "price": 352.85,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "SATIN",
+      "price": 251.18,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "SGFIN",
+      "price": 734.95,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "SMSPHARMA",
+      "price": 485.8,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "TANLA",
+      "price": 618.4,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-10-29",
+      "symbol": "TFCILTD",
+      "price": 159.66,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}
