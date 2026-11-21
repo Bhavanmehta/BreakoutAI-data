@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-11-20T18:49:27+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "a02a62b64",
+  "graded_under": {
+    "unstamped": 2363,
+    "104892c8": 1184
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 3547,
+  "followed_through": 1286,
+  "hit_rate": 0.363,
+  "pending": 739,
+  "live_calls_logged": 10760,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-11-05",
+      "symbol": "ADANIPORTS",
+      "price": 1884.6,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AIIL",
+      "price": 569.6,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ARHAM",
+      "price": 228.03,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ARIS",
+      "price": 149.72,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ASAHIINDIA",
+      "price": 1020.8,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "CANTABIL",
+      "price": 260.15,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "DLF",
+      "price": 745.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "DRREDDY",
+      "price": 1366.0,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "EIMCOELECO",
+      "price": 2517.1,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "GRWRHITECH",
+      "price": 7630.5,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "HCLTECH",
+      "price": 1430.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "HONASA",
+      "price": 481.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "INDIANB",
+      "price": 892.15,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ISGEC",
+      "price": 974.05,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "LGEINDIA",
+      "price": 1778.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "LTTS",
+      "price": 4225.6,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "LUMAXTECH",
+      "price": 2255.8,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "MAHABANK",
+      "price": 85.1,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "MANOMAY",
+      "price": 247.08,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "MARICO",
+      "price": 887.75,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-11-21T03:23:15+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "a02a62b64",
+  "graded_under": {
+    "unstamped": 15785,
+    "8aa28a9c": 3335
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 19120,
+  "followed_through": 6157,
+  "hit_rate": 0.322,
+  "pending": 3167,
+  "live_calls_logged": 43424,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-11-05",
+      "symbol": "ABT",
+      "price": 113.6,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ACGL",
+      "price": 110.57,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ACN",
+      "price": 265.16,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AER",
+      "price": 166.17,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AGL",
+      "price": 113.77,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AKO-A",
+      "price": 25.29,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ALL",
+      "price": 266.72,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ALLE",
+      "price": 187.14,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AMN",
+      "price": 47.42,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "APPN",
+      "price": 54.03,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ASRV",
+      "price": 4.88,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ATLO",
+      "price": 34.04,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "ATO",
+      "price": 175.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AWR",
+      "price": 88.84,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "AXS",
+      "price": 107.93,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "BF-A",
+      "price": 31.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "BFST",
+      "price": 32.28,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "BME",
+      "price": 46.54,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "BOX",
+      "price": 43.55,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-05",
+      "symbol": "BPRN",
+      "price": 43.98,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    }
+  ]
+}
