@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-11-27T19:40:12+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = resistance x 0.94 (~6% below the trigger); relative-strength calls floored at 1.5x the 10-day ATR below the trigger",
+  "ruler_id": "104892c8",
+  "ruler": {
+    "m": "flat",
+    "f": 0.94,
+    "w": 10
+  },
+  "code_rev": "dff83e015",
+  "graded_under": {
+    "unstamped": 2365,
+    "104892c8": 1326
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 3691,
+  "followed_through": 1341,
+  "hit_rate": 0.363,
+  "pending": 738,
+  "live_calls_logged": 11108,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-11-12",
+      "symbol": "AAREYDRUGS",
+      "price": 114.11,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AARTIDRUGS",
+      "price": 508.75,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AARTIPHARM",
+      "price": 1010.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ABCAPITAL",
+      "price": 419.5,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ABDL",
+      "price": 758.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ACUTAAS",
+      "price": 3996.1,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AMANTA",
+      "price": 228.37,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "APLAPOLLO",
+      "price": 2225.7,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ARIS",
+      "price": 149.07,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ASTRAMICRO",
+      "price": 1785.8,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BAJAJHLDNG",
+      "price": 11265.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CEIGALL",
+      "price": 394.55,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CUPID",
+      "price": 384.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "DCBBANK",
+      "price": 227.96,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "DIVISLAB",
+      "price": 11485.0,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "EIMCOELECO",
+      "price": 2626.8,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ESAFSFB",
+      "price": 45.08,
+      "score": "high",
+      "source": "live",
+      "worked": true,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "GABRIEL",
+      "price": 1641.2,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "GAIL",
+      "price": 187.91,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "GLAND",
+      "price": 3308.7,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "104892c8"
+    }
+  ]
+}

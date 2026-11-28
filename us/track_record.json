@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-11-28T04:07:23+00:00",
+  "horizon_days": 10,
+  "stop_loss_fraction": 0.94,
+  "stop_model": "stop = 1.5x the 10-day ATR below the trigger, clamped 4-12% of price",
+  "ruler_id": "8aa28a9c",
+  "ruler": {
+    "m": "atr",
+    "k": 1.5,
+    "lo": 4.0,
+    "hi": 12.0,
+    "w": 10
+  },
+  "code_rev": "dff83e015",
+  "graded_under": {
+    "unstamped": 15767,
+    "8aa28a9c": 3762
+  },
+  "criterion": "hit +1R (risk-defined target) before the stop, within 10 trading days",
+  "actionable_evaluated": 19529,
+  "followed_through": 6166,
+  "hit_rate": 0.316,
+  "pending": 3240,
+  "live_calls_logged": 44838,
+  "note": "Includes a walk-forward simulation of recent history (source=simulated); live daily calls accumulate from now on.",
+  "recent": [
+    {
+      "date": "2026-11-12",
+      "symbol": "ACNB",
+      "price": 66.92,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AER",
+      "price": 175.99,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AEYE",
+      "price": 14.3,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AFG",
+      "price": 160.27,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AIZ",
+      "price": 321.09,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AMZN",
+      "price": 267.44,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "APPN",
+      "price": 55.15,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ARL",
+      "price": 22.93,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ASND",
+      "price": 267.07,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "ASUR",
+      "price": 10.29,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "AVA",
+      "price": 40.29,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BGX",
+      "price": 10.63,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BILL",
+      "price": 54.0,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BOX",
+      "price": 43.63,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BRK-A",
+      "price": 885660.0,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "BTSG",
+      "price": 71.45,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CAC",
+      "price": 59.31,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CAE",
+      "price": 28.15,
+      "score": "high",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CAH",
+      "price": 278.14,
+      "score": "medium",
+      "source": "live",
+      "worked": true,
+      "ruler": "8aa28a9c"
+    },
+    {
+      "date": "2026-11-12",
+      "symbol": "CBL",
+      "price": 54.29,
+      "score": "medium",
+      "source": "live",
+      "worked": false,
+      "ruler": "8aa28a9c"
+    }
+  ]
+}
